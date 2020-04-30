@@ -1,4 +1,5 @@
 # Don't commit the data or pretrained models
+data
 data/
 pretrained_models/
 pretrained_models.tar.gz
