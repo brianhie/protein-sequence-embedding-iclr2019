@@ -33,7 +33,7 @@ def load_2line(path, alphabet):
 def load_data():
     alphabet = Uniprot21()
 
-    path = 'data/sarkisyan2016gfp/fpbase.fa'#'data/davis2011kinase/uniprot_sequences_processed.fasta'
+    path = 'data/davis2011kinase/uniprot_sequences_processed.fasta'
     names, seqs = load_2line(path, alphabet)
 
     datasets = {'dataset0': (seqs, names)}
